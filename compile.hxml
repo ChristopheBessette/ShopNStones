@@ -1,0 +1,12 @@
+-cp src
+-lib heaps
+-main Main
+-dce full
+
+-lib hlsdl
+-hl bin/hello.hl
+# -js bin/client.js
+
+-D windowFixed=1
+-D windowSize=1280x720
+-D windowTitle=BTP Jam - Shop 'n Stones

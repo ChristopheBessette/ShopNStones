@@ -1,0 +1,147 @@
+{
+    "levels":[
+
+        {
+            "id" : "tutorial_1",
+            "name" : "Tutorial 1/3",
+            "width" : 2,
+            "height" : 1,
+            "defaults" : [
+                {"id" : "Diamond", "cx" : 0, "cy" : 0},
+                {"id" : "Diamond", "cx" : 1, "cy" : 0}
+            ],
+            "hint" : "click and drag gems on one another"
+        },
+
+        {
+            "id" : "tutorial_2",
+            "name" : "Tutorial 2/3",
+            "width" : 4,
+            "height" : 1,
+            "defaults" : [
+                {"id" : "Amethyst", "cx" : 0, "cy" : 0},
+                {"id" : "Amethyst", "cx" : 1, "cy" : 0},
+                {"id" : "Diamond", "cx" : 2, "cy" : 0},
+                {"id" : "Diamond", "cx" : 3, "cy" : 0}
+            ],
+            "hint" : "gems can only be combined with the same gems"
+        },
+
+        {
+            "id" : "tutorial_4",
+            "name" : "Tutorial 3/3",
+            "width" : 3,
+            "height" : 3,
+            "defaults" : [
+                {"id" : "Diamond", "cx" : 0, "cy" : 0},
+                {"id" : "Emerald", "cx" : 1, "cy" : 0},
+                {"id" : "Amethyst", "cx" : 2, "cy" : 0},
+                {"id" : "Topaz", "cx" : 0, "cy" : 1},
+                {"id" : "Bomb", "cx" : 1, "cy" : 1},
+                {"id" : "RainbowOpal", "cx" : 2, "cy" : 1},
+                {"id" : "Garnet", "cx" : 0, "cy" : 2},
+                {"id" : "Ruby", "cx" : 1, "cy" : 2},
+                {"id" : "RoseQuartz", "cx" : 2, "cy" : 2}  
+            ],
+            "hint" : "you can move gems on special objects\nthe bomb explode around itself"
+        },
+
+        {
+            "id" : "tutorial_5",
+            "name" : "Tutorial 3/3",
+            "width" : 3,
+            "height" : 3,
+            "defaults" : [
+                {"id" : "Diamond", "cx" : 0, "cy" : 0},
+                {"id" : "Amethyst", "cx" : 1, "cy" : 0},
+                {"id" : "Diamond", "cx" : 2, "cy" : 0},
+                {"id" : "Amethyst", "cx" : 0, "cy" : 1},
+                {"id" : "Star", "cx" : 1, "cy" : 1},
+                {"id" : "Amethyst", "cx" : 2, "cy" : 1},
+                {"id" : "Diamond", "cx" : 0, "cy" : 2},
+                {"id" : "Amethyst", "cx" : 1, "cy" : 2},
+                {"id" : "Diamond", "cx" : 2, "cy" : 2}  
+            ],
+            "hint" : "the star destroys all gems of the same kind!"
+        },
+
+        {
+            "id" : "tutorial_6",
+            "name" : "Tutorial 3/3",
+            "width" : 3,
+            "height" : 2,
+            "defaults" : [
+                {"id" : "Diamond", "cx" : 0, "cy" : 0},
+                {"id" : "Diamond", "cx" : 1, "cy" : 0},
+                {"id" : "Diamond", "cx" : 2, "cy" : 0},
+                {"id" : "Diamond", "cx" : 0, "cy" : 1},
+                {"id" : "Coin", "cx" : 1, "cy" : 1},
+                {"id" : "Diamond", "cx" : 2, "cy" : 1}
+            ],
+            "hint" : "coins give you the gem's full value!"
+        },
+
+        {
+            "id" : "tutorial_7",
+            "name" : "Tutorial 3/3",
+            "width" : 3,
+            "height" : 3,
+            "defaults" : [
+                {"id" : "Diamond", "cx" : 0, "cy" : 0},
+                {"id" : "Amethyst", "cx" : 1, "cy" : 0},
+                {"id" : "Diamond", "cx" : 2, "cy" : 0},
+                {"id" : "Amethyst", "cx" : 0, "cy" : 1},
+                {"id" : "StrangeDoll", "cx" : 1, "cy" : 1},
+                {"id" : "Amethyst", "cx" : 2, "cy" : 1},
+                {"id" : "Diamond", "cx" : 0, "cy" : 2},
+                {"id" : "Amethyst", "cx" : 1, "cy" : 2},
+                {"id" : "Diamond", "cx" : 2, "cy" : 2}  
+            ],
+            "hint" : "I'm not too sure what the strange doll does... mysteries"
+        },
+
+        {
+            "id" : "tutorial_8",
+            "name" : "Tutorial 3/3",
+            "width" : 3,
+            "height" : 3,
+            "defaults" : [
+                {"id" : "Garnet", "cx" : 0, "cy" : 0},
+                {"id" : "Topaz", "cx" : 1, "cy" : 0},
+                {"id" : "Garnet", "cx" : 2, "cy" : 0},
+                {"id" : "Topaz", "cx" : 0, "cy" : 1},
+                {"id" : "Shop", "cx" : 1, "cy" : 1},
+                {"id" : "Topaz", "cx" : 2, "cy" : 1},
+                {"id" : "Garnet", "cx" : 0, "cy" : 2},
+                {"id" : "Topaz", "cx" : 1, "cy" : 2},
+                {"id" : "Garnet", "cx" : 2, "cy" : 2}  
+            ],
+            "hint" : "the shop transforms into another special item"
+        },
+
+        {
+            "id" : "tutorial_3",
+            "name" : "Tutorial 3/3",
+            "width" : 5,
+            "height" : 1,
+            "defaults" : [
+                {"id" : "Topaz", "cx" : 0, "cy" : 0},
+                {"id" : "RainbowOpal", "cx" : 1, "cy" : 0},
+                {"id" : "RainbowOpal", "cx" : 2, "cy" : 0},
+                {"id" : "RainbowOpal", "cx" : 3, "cy" : 0},
+                {"id" : "Topaz", "cx" : 4, "cy" : 0}
+            ],
+            "hint" : "final score is reduced by the remaining gems!"
+        },
+
+        {
+            "id" : "default",
+            "name" : "Game On!",
+            "width" : 8,
+            "height" : 8,
+            "defaults" : [],
+            "hint" : "less gems means more points!"
+        }
+
+    ]
+}
